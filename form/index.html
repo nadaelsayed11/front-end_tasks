@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: linear-gradient(rgb(157,0,151), rgb(181,132,87)), rgb(83,15,125);">
+    <div class="container" style="padding-right: 15%;padding-left: 15%;padding-bottom: 10%;padding-top: 10%;">
+        <header>
+            <h1 style="text-align: center;color: rgb(252,253,255);font-family: Alatsi, sans-serif;">freeCodeCamp Survey
+                Form<br></h1>
+            <p style="text-align: center;color: rgb(239,246,252);font-family: ABeeZee, sans-serif;"><em>Thank you for
+                    taking the time to help us improve the platform</em><br></p>
+        </header>
+        <form
+            style="background: rgba(19,6,24,0.37);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;">
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 9%;padding-bottom: 2%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Name<br></label><input
+                    class="form-control" placeholder="Please, Enter your name" type="text"></div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 2%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Email<br></label><input
+                    class="form-control" placeholder="Please, Enter your email" type="email"></div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 2%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;font-size: 16px;">Age<br></label><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;font-size: 13px;">(optional)<br></label><input
+                    class="form-control" placeholder="Please, Enter your age" type="number"></div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 2%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Which option best describes your
+                    current role?<br></label><select class="form-control">
+                    <option disabled="disabled" selected="selected">Select current role</option>
+                    <option value="13">student</option>
+                    <option value="14">Full Time Job</option>
+                    <option value="15">Full Time Learner</option>
+                    <option value="16">Prefer not to say</option>
+                    <option value="17">Other</option>
+                </select></div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 2%;">
+                <div class="form-row">
+                    <div class="col"><label class="col-form-label"
+                            style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Would you recommend
+                            freeCodeCamp to a friend?<br></label></div>
+                </div>
+                <div class="form-row">
+                    <div class="col-auto d-sm-flex align-items-sm-center" style="padding-right: 0px;padding-left: 0px;">
+                        <input class="d-sm-flex" type="radio" style="padding-top: 0px;"></div>
+                    <div class="col d-sm-flex align-items-sm-center"><label class="col-form-label"
+                            style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Definitely<br></label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-auto d-sm-flex align-items-sm-center" style="padding-right: 0px;padding-left: 0px;">
+                        <input class="d-sm-flex" type="radio" style="padding-top: 0px;"></div>
+                    <div class="col d-sm-flex align-items-sm-center"><label class="col-form-label"
+                            style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Maybe<br></label></div>
+                </div>
+                <div class="form-row">
+                    <div class="col-auto d-sm-flex align-items-sm-center" style="padding-right: 0px;padding-left: 0px;">
+                        <input class="d-sm-flex" type="radio" style="padding-top: 0px;"></div>
+                    <div class="col d-sm-flex align-items-sm-center"><label class="col-form-label"
+                            style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Not sure<br></label></div>
+                </div>
+            </div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 2%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">What is your favorite feature of
+                    freeCodeCamp?<br></label><select class="form-control">
+                    <option disabled="disabled" selected="selected">Select an option</option>
+
+                    <option value="13">Challenges</option>
+                    <option value="14">Projects</option>
+                    <option value="15">Community</option>
+                    <option value="16">Open Source</option>
+                </select></div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 2%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;font-size: 16px;">What would you
+                    like to see improved?<br></label><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;font-size: 13px;">(Check all that
+                    apply)<br></label>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Front-end Projects<br></label>
+                </div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Back-end Projects<br></label>
+                </div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Data Visualization<br></label>
+                </div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Challenges<br></label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Open Source
+                        Community<br></label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Gitter help rooms<br></label>
+                </div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Videos<br></label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">City Meetups<br></label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Wiki<br></label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Forum<br></label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label
+                        class="form-check-label" for="formCheck-1"
+                        style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Additional Courses<br></label>
+                </div>
+            </div>
+            <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 5%;"><label
+                    style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Any comments or
+                    suggestions?<br></label><textarea class="form-control"
+                    placeholder="Please, Enter your comment (if any)"></textarea></div>
+            <div class="d-flex justify-content-center"
+                style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 5%;"><button
+                    class="btn btn-primary" type="button"
+                    style="padding-right: 0%;padding-left: 0%;background: rgba(34,20,9,0.73);border-color: rgba(255,255,255,0);color: rgb(215,215,215);font-family: ABeeZee, sans-serif;width: 100%;">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
