@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
+        <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: linear-gradient(rgb(157,0,151), rgb(181,132,87)), rgb(83,15,125);">
+        <div class="container" style="padding-right: 15%;padding-left: 15%;padding-bottom: 10%;padding-top: 10%;">
+                <header>
+                        <h1 style="text-align: center;color: rgb(252,253,255);font-family: Alatsi, sans-serif;">
+                                Contact Us<br></h1>
+                </header>
+                <form style="background: rgba(19,6,24,0.37);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;">
+                        <div style="padding-left: 7%;padding-right: 7%;padding-top: 9%; padding-bottom: 2%;">
+                                <label style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Name<br>
+                                </label>
+                                <input id="Name" class="form-control" placeholder="Please, Enter your name" type="text">
+                                <p style="color: rgb(136, 1, 1); display: none;" id = "errorname" >error name must be 2:25 charachters</p>
+                        </div>
+                        <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%; padding-bottom: 2%;">
+                                <label style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Email<br>
+                                </label>
+                                        <input id="Email"  class="form-control" placeholder="Please, Enter your email" type="email">
+                                        <p style="color: rgb(136, 1, 1); display: none;" id = "erroremail">error unvalied email</p>
+                        </div>
+                        <div style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 5%;">
+                                <label style="color: rgb(215,215,215);font-family: ABeeZee, sans-serif;">Any comments or suggestions?<br>
+                                </label>
+                                <textarea id="Massage" class="form-control" placeholder="Please, Enter your comment (if any)"></textarea>
+                                <p style="color: rgb(136, 1, 1); display: none;" id = "errortext">error massege must be 1:100 word</p>
+                        </div>
+                        <div class="d-flex justify-content-center" id= "button" style="padding-left: 7%;padding-right: 7%;padding-top: 0%;padding-bottom: 5%;">
+                                <button onclick="onclickfunction()" class="btn btn-primary" type="button" style="padding-right: 0%;padding-left: 0%;background: rgba(34,20,9,0.73);border-color: rgba(255,255,255,0);color: rgb(215,215,215);font-family: ABeeZee, sans-serif;width: 100%;">Submit</button>
+                        </div>
+                </form>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/bootstrap/js/scripts.js"></script>
+</body>
+
+</html>
